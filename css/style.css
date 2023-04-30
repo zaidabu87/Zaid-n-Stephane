@@ -43,11 +43,6 @@ li {
 
 }
 
-footer {
-    padding: 5px;
-    line-height: 1.5rem;
-}
-
 ul {
     text-align: left;
 
@@ -55,7 +50,7 @@ ul {
 
 #main {
     background-color: var(--white);
-    margin: 2rem 0.5rem;
+    margin: 2rem auto;
     font-family: sans-serif;
     font-weight: 300;
     text-align: center;
@@ -68,7 +63,9 @@ ul {
 
 #footer {
     font-weight: bold;
-    font-size: var(--font-size)
+    font-size: var(--font-size);
+    line-height: 1.5rem;
+    font-size: 0.8rem;
 }
 
 #description {
@@ -107,11 +104,6 @@ ul {
     font-weight: 600;
 }
 
-#tribute-info {
-    max-width: 60%;
-    margin: 0 auto;
-}
-
 
 .quote,
 cite {
@@ -131,9 +123,13 @@ cite,
     font-size: 1rem;
 }
 
-@media (max-width: 850px) {
+@media (min-width: 850px) {
     #tribute-info {
-        width: 90%;
+        width: 60%;
         margin: 0 auto;
+    }
+
+    #footer {
+        font-size: 1.3rem;
     }
 }
