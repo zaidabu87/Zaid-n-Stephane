@@ -31,6 +31,10 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+}
+
 
 blockquote {
     padding: 2.5rem 0;
